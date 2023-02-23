@@ -1,0 +1,35 @@
+from flask import Flask, render_template, request
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+   return render_template('index.html')
+
+@app.route('/projects')
+def projects():
+   return render_template('projects.html')
+
+@app.route('/about')
+def about():
+   return render_template('about.html')
+
+if __name__ == '__main__':
+   app.run()
+
+const express = require('express');
+const app = express
+
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.use(express.static("public"));
+app.set("view engine", "ejs");
+
+app.get("/", (req, res) => {
+  res.render("index");
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
