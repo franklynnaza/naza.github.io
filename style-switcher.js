@@ -73,3 +73,8 @@ window.addEventListener("scroll", ()=>{
 
 
 
+var wratogle = document.querySelectorAll(".wrappper");
+function rotte(){
+    wratogle.style.display = "none"
+}
+

@@ -633,9 +633,7 @@ transition: all .3s ease;
     width: 200%;
     display: block;
 }/*contact*/
-.contact{
-    min-height: 1250px;
-}
+
 .bottom{
    
    font-size: 15px;
@@ -801,12 +799,12 @@ padding: 10px 25px;
     height: 500px!important;
 }
 .singlecard .back h4{
-    font-size: 20px!important;
+    font-size: 25px!important;
 }
 .front,
 .back{
    
- min-height: 500px;
+ max-height:500px!important;
     position: relative;
     top: 0;
     left: 0;
@@ -878,7 +876,8 @@ padding: 10px 25px;
     color:var(--bg-black-900);
 }
 .socials{
-    margin-top: 20px;
+    margin: auto;
+   
 }
 .socials i{
     cursor: pointer;
@@ -1170,9 +1169,7 @@ transition: all .3s ease;
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .contact{
-        min-height: 2050px;
-    }
+  
     
     
 }
