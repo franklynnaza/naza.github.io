@@ -478,8 +478,11 @@ width: 100%;
     transition: transform 0.5s; 
     
 }
-.timeline:hover{
+.timeline{
     box-shadow: 0 0 20px var(--text-black-900);
+}
+.timeline:hover{
+   
     transform: translateY(-10px);
     cursor: default;
 }
@@ -508,6 +511,9 @@ width: 100%;
     width: 15px;
     border-radius: 50%;
     background-color: var(--skin-color);
+}
+.timeline span, i {
+    color: var(--skin-color);
 }
 .about .about-content .timeline .timeline-date{
     font-weight: 400;
@@ -790,10 +796,17 @@ padding: 10px 25px;
     
     
 }
+.singlecard .back,
+.front{
+    height: 500px!important;
+}
+.singlecard .back h4{
+    font-size: 20px!important;
+}
 .front,
 .back{
    
- 
+ min-height: 500px;
     position: relative;
     top: 0;
     left: 0;
@@ -809,6 +822,8 @@ padding: 10px 25px;
     backface-visibility: hidden;
     box-shadow: 0 0 10px var(--text-black-900);
 }
+
+
 
 .front{
     cursor: pointer;
@@ -852,8 +867,8 @@ padding: 10px 25px;
     padding-left: 20px;
 
 }
-.content h4{
- font-size: 35px;
+ .content h4{
+ font-size: 25px;
  margin-top: 30px;
  font-weight: 300px;
  color: var(--bg-black-100);
@@ -1077,7 +1092,11 @@ transition: all .3s ease;
     h3.my-profession{
     font-size: 25px;
     margin: 15px 0;
+   
 
+}
+.my-profession {
+    padding-top: 20px;
 }
 .tagcloud {
     display: inline-block;
@@ -1152,7 +1171,7 @@ transition: all .3s ease;
         max-width: 50%;
     }
     .contact{
-        min-height: 1750px;
+        min-height: 2050px;
     }
     
     
