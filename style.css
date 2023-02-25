@@ -284,6 +284,7 @@ transition: all .3s ease;
 .aside .nav li a.active{
 color: var(--skin-color);
 }
+
 .aside .nav li a i{
     margin-right: 15px;
 }
