@@ -5,7 +5,7 @@ var typed = new Typed(".typing",{
     loop:true
 })
 var typed = new Typed(".typingg",{
-    strings:["Welcome to my portfolio! I'm Naza, a web developer with a passion for building web programs. Through 4 of experience, I've developed skills in web development. This page showcases some of my recent work and provides insight into my expertise. Let's collaborate on your next project!" ],
+    strings:["Welcome to my portfolio! I'm Naza, a web developer with a passion for building web programs. Through 4 years of experience, I've developed skills in web development. This page showcases some of my recent work and provides insight into my expertise. Let's collaborate on your next project!" ],
     typeSpeed:60,
     backSpeed:100000,
     loop:true
