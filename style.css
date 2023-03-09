@@ -48,6 +48,10 @@ body{
 ::before,::after{
     box-sizing: border-box;
 }
+.flex{
+    display: flex;
+    width: 100%;
+}
 
 .section{
     background-color: var(--bg-black-900);
