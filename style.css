@@ -48,7 +48,9 @@ body{
 ::before,::after{
     box-sizing: border-box;
 }
-
+.flex{
+   flex-wrap: wrap;
+}
 
 .section{
     background-color: var(--bg-black-900);
