@@ -277,6 +277,7 @@ z-index: 11;
      transform: translateX(200px);
      width: 270px;
 transition: all .3s ease;
+display: none;
 }
 .aside .logo{
     position: absolute;
@@ -1184,6 +1185,9 @@ transition: all .3s ease;
     font-size: 25px;
     margin: 15px 0;
 
+}
+.blur{
+    display: initial;
 }
 }
 @media(max-width:1199px)
