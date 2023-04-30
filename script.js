@@ -70,13 +70,22 @@ function updateNav(element){
 }
 
 const navbtn = document.querySelector(".nav-toggler"),
-aside = document.querySelector(".aside")
+aside = document.querySelector(".aside"),
+blurr = document.querySelector(".blur")
 navbtn.addEventListener("click", ()=>{
     bbb();
+    
+})
+blurr.addEventListener("click", ()=>{
+    bbb();
+    faf.querySelector("i").classList.toggle("fa-bars");
+    faf.querySelector("i").classList.toggle("fa-times");
 })
 function bbb(){
     aside.classList.toggle("open");
     navbtn.classList.toggle("open");
+    blurr.classList.toggle("open");
+   
     
 }
 
@@ -115,6 +124,9 @@ $(window).on('load', function() {
     handlePreloader();
     enableMasonry();
 });
+
+
+
 
 
 

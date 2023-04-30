@@ -264,7 +264,18 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100%;
-z-index: 10;
+transition: all .3s ease;
+z-index: 11;
+}
+.blur{
+    position: fixed;
+       left: 200;
+       inset: 0 0 0 50%;
+      z-index: 10;
+       background-color:hsl(0, 0%, 00% / 0.75);
+       backdrop-filter: blur(.5rem);
+     transform: translateX(200px);
+     width: 270px;
 transition: all .3s ease;
 }
 .aside .logo{
@@ -329,6 +340,7 @@ transition: all .3s ease;
     align-items: center;
    justify-content: center;
    transition: all .3s ease;
+   
 }
 .aside .nav-toggler span{
     
@@ -1213,6 +1225,10 @@ transition: all .3s ease;
     .aside.open{
         left: 0;
     }
+    .blur.open{
+        left: 0;
+    }
+  
    .aside .nav-toggler{
     display: flex;
     left: 30px;
