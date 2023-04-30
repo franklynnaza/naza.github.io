@@ -708,7 +708,7 @@ transition: all .3s ease;
     text-align: center;
 }
 .portfolio-item h3{
-    color: white;
+    color: var(--text-black-900);
 }
 .portfolio .portfolio-item-inner{
     border: 6px solid var(--bg-black-100);
