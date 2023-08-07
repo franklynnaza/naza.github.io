@@ -269,14 +269,14 @@ z-index: 11;
 }
 .blur{
     position: fixed;
-       left: 200;
-       inset: 0 0 0 50%;
+       left: 2000px;
+       inset: 0 0 0 100%;
       z-index: 10;
        background-color:hsl(0, 0%, 00% / 0.75);
        -webkit-backdrop-filter: blur(10px);
        backdrop-filter: blur(10px);
      transform: translateX(200px);
-     width: 270px;
+     width: 1970px;
 transition: all .3s ease;
 display: none;
 }
